@@ -1004,4 +1004,8 @@ ul.news_2lvl {
     padding: 5px 0px 10px 18px;
     font-family: Calibri;
     color: #6d6e71;
+ }
+
+.head_b.rel ul {
+ padding: 0;
 }
