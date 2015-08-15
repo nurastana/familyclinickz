@@ -1,0 +1,159 @@
+﻿/*Horizontal Orientation CSS*/
+.jscarousal-horizontal {
+    /* width: 740px; */
+    /* height: 240px; */
+    /* border: solid 1px #7A7677; */
+    margin-top: 37px;
+    padding: 0;
+    /* padding: 22px 8px 22px 8px; */
+    position: relative;
+    overflow: hidden;
+}
+.jscarousal-horizontal-back, .jscarousal-horizontal-forward {
+    float: left;
+    width: 35;
+    height: 67;
+    color: White;
+    position: relative;
+    top: 87px;
+    cursor: pointer;
+}
+.jscarousal-horizontal-back
+{
+	background-image: url(../img/left.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#hWrapper .jscarousal-horizontal-back
+{
+	background-image: url(../img/left1.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#hWrapper .jscarousal-horizontal-back:hover
+{
+	background-image: url(../img/left_h.png);
+}
+#hWrapper .jscarousal-horizontal-forward
+{
+	background-image: url(../img/right1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#hWrapper .jscarousal-horizontal-forward:hover{
+	background-image: url(../img/right_h.png);
+}
+
+.jscarousal-horizontal-forward
+{
+	background-image: url(../img/right.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.jscarousal-contents-horizontal {
+    width: 1127px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+#hWrapperAuto {
+    height: 257px;
+}
+.jscarousal-contents-horizontal > div
+{
+	position: absolute;
+	width: 100%;
+	height: 124px;
+}
+.jscarousal-contents-horizontal > div > div {
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 15px;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: 0px 1px 2px 0px #b7b7b7;
+    box-shadow: none;
+    width: 234px;
+    text-align: center;
+    overflow: hidden;
+    height: 235px;
+}
+.jscarousal-contents-horizontal img {
+    border: 3px solid #34b44a;
+    border-radius: 128px;
+    overflow: hidden;
+    width: 181px;
+    margin-bottom: 9px;
+}
+
+.thumbnail-active img
+{
+border: 3px solid #6d6e71;
+}
+.thumbnail-active	.thumbnail-text span{
+		text-decoration:underline;
+	}
+/*Horizontal Orientation CSS Ends*/
+
+
+/*Common*/
+.hidden
+{
+	display: none;
+}
+.visible
+{
+	display: block;
+}
+
+
+.thumbnail-text {
+    color: #34b44a;
+    line-height: 16px;
+    font-family: Calibri;
+}
+.cont_body .thumbnail-text {
+    color: #34b44a;
+    line-height: 16px;
+    font-family: Calibri;
+    text-align: center;
+}
+.thumbnail-text span{font-family: CalibriBold;
+    font-size: 14px;
+    color: #6d6e71;}
+
+.news img {
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+}
+.jscarousal-contents-horizontal > div>.news:hover{
+	    border: 1px solid #34B44A;
+}
+.jscarousal-contents-horizontal > div>.news:hover .name {
+	    text-decoration:underline
+}
+
+
+.jscarousal-contents-horizontal > div>.news {
+    width: 229px;
+    padding: 0px;
+    height: 285px;
+    border: 1px solid #ccc;
+    margin: 0 25px;
+    text-align: left;
+}
+.news_img {
+    height: 119px;
+    overflow: hidden;
+}
+.jscarousal-contents-horizontal > div>.news:hover .date {
+border-bottom: 1px solid #34B44A;}
+#hWrapper {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 299px;
+}

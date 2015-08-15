@@ -1,0 +1,73 @@
+
+#cssmenu ul ul {
+    display: none;
+    margin-top: 5px;
+}
+
+
+#cssmenu > ul > li > a:hover > span:after, 
+#cssmenu > ul > li.active > a > span:after, 
+#cssmenu > ul > li.open > a > span:after {
+    border-color: #eeeeee;
+}
+.holder:before {
+    border-left-color: inherit;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-top-color: inherit;
+    border-top-style: solid;
+    border-top-width: 2px;
+    top: 18px;
+}
+#cssmenu ul ul li a {
+    font-size: 13px;
+    padding: 0px 18px;
+    line-height: 11px;
+    text-decoration: none;
+    z-index: 1;
+    background-position: 10 1px;
+}
+li.has-sub span {
+    cursor: pointer;
+}
+#cssmenu ul ul ul li:first-child > a {
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+#cssmenu ul ul ul li a {
+    padding-left: 30px;
+}
+#cssmenu > ul > li > ul > li:last-child > a, 
+#cssmenu > ul > li > ul > li.last > a {
+    border-bottom: 0 none;
+}
+#cssmenu > ul > li > ul > li.open:last-child > a, 
+#cssmenu > ul > li > ul > li.last.open > a {
+    border-bottom: 1px solid #32373e;
+}
+#cssmenu > ul > li > ul > li.open:last-child > ul > li:last-child > a {
+    border-bottom: 0 none;
+}
+#cssmenu ul ul li.has-sub > a:after {
+    border-left: 2px solid #eeeeee;
+    border-top: 2px solid #eeeeee;
+    content: "";
+    display: block;
+    height: 5px;
+    position: absolute;
+    right: 20px;
+    top: 11.5px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    width: 5px;
+    z-index: 10;
+}
+#cssmenu ul ul li.active > a:after, 
+#cssmenu ul ul li.open > a:after, 
+#cssmenu ul ul li > a:hover:after {
+    border-color: #ffffff;
+}
+#cssmenu > ul > li.open > a {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1fa0e4', endColorstr='#1992d1',GradientType=0 ); /* IE6-9 */
+}
